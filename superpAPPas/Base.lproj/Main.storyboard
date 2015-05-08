@@ -514,7 +514,7 @@
             </objects>
             <point key="canvasLocation" x="1813.5" y="136"/>
         </scene>
-        <!--Item-->
+        <!--SEMANA-->
         <scene sceneID="mz4-Lg-Y5R">
             <objects>
                 <viewController id="RwR-ZK-klK" sceneMemberID="viewController">
@@ -524,9 +524,42 @@
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rE4-W5-aBT">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SEMANA.png" translatesAutoresizingMaskIntoConstraints="NO" id="qIN-Mo-pHj">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qIN-Mo-pHj" firstAttribute="top" secondItem="VSj-Si-kgK" secondAttribute="bottom" constant="15" id="FuW-Ui-cNT"/>
+                            <constraint firstItem="te3-54-8WE" firstAttribute="top" secondItem="qIN-Mo-pHj" secondAttribute="bottom" constant="16" id="X4w-w1-RFc"/>
+                            <constraint firstAttribute="trailing" secondItem="qIN-Mo-pHj" secondAttribute="trailing" constant="20" id="lt5-4g-EP8"/>
+                            <constraint firstItem="qIN-Mo-pHj" firstAttribute="leading" secondItem="rE4-W5-aBT" secondAttribute="leading" constant="20" id="poK-CU-EVu"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="qIN-Mo-pHj"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="FuW-Ui-cNT"/>
+                                <exclude reference="lt5-4g-EP8"/>
+                                <exclude reference="poK-CU-EVu"/>
+                                <exclude reference="X4w-w1-RFc"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="qIN-Mo-pHj"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="FuW-Ui-cNT"/>
+                                <include reference="lt5-4g-EP8"/>
+                                <include reference="poK-CU-EVu"/>
+                                <include reference="X4w-w1-RFc"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="zyJ-7M-5wz"/>
+                    <tabBarItem key="tabBarItem" title="SEMANA" id="zyJ-7M-5wz"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GuP-gO-bQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -640,7 +673,7 @@
             </objects>
             <point key="canvasLocation" x="2719.5" y="125"/>
         </scene>
-        <!--Item-->
+        <!--PERIODO 1-->
         <scene sceneID="AEJ-r1-RVs">
             <objects>
                 <viewController id="z3Z-H2-1LL" sceneMemberID="viewController">
@@ -702,13 +735,13 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="lNm-oZ-Qx7"/>
+                    <tabBarItem key="tabBarItem" title="PERIODO 1" id="lNm-oZ-Qx7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hvu-GU-d1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2731.5" y="880"/>
         </scene>
-        <!--Item-->
+        <!--MES-->
         <scene sceneID="lCl-r0-8q6">
             <objects>
                 <viewController id="2xc-Rr-RvB" sceneMemberID="viewController">
@@ -769,7 +802,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Wul-JB-jNY"/>
+                    <tabBarItem key="tabBarItem" title="MES" id="Wul-JB-jNY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nR9-fb-Wid" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1002,6 +1035,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="SEMANA.png" width="435" height="232"/>
         <image name="_agenda.png" width="217" height="209"/>
         <image name="_eventos.png" width="234" height="233"/>
         <image name="_habil.png" width="234" height="233"/>

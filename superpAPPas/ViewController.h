@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MenuViewController.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *documentID;
 
+@property (strong, nonatomic) IBOutlet UITextField *passwordID;
+
+@property MenuViewController *menu;
 @end
 
